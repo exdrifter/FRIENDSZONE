@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body bgcolor="pink" align="center" style="font-family: Arial;">
+  <h1> </h1>
+  {% if message %}
+    <p>{{ message }}</p>
+  {% endif %}
+    <table width = "80%" border = "0.5" align = "center" style = "background-color: lightpink;">
+    <tbody>
+      {% for rec in info %}
+        <tr align="left" style="font-size:175%;">
+          <td><strong>{{ rec[2] }}</strong></td>
+        </tr>
+        <tr align="left">
+            <td><small><i>{{ rec[1] }}</i></small></td>
+        </tr>
+        <tr align="left" style="font-size:120%;">
+            <td>{{ rec[3] }}</td>
+        </tr>
+        <tr align="right">
+          <td>
+            <a href="/edit/{{ rec[0] }}" style="color:black; text-decoration: none;"><b>Edit</b></a>
+            <a href="/delete/{{ rec[0] }}" style="color:black; text-decoration: none;"><b>Delete</b></a>
+          </td>
+        </tr>
+        <tr>
+            <th> </th>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <br>
+  <p style="color:gray;">
+  <a href="{{ url_for('home') }}" style="color:white; text-decoration: none;"><b>HOME    </b></a>|
+  <a href="{{ url_for('add') }}" style="color:white; text-decoration: none;"><b>    POST</b></a>
+  </p>
+</body>
+</html>
