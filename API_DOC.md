@@ -52,7 +52,7 @@ Example Response:
     "id": 2,
     "btitle": "my daily mantra",
     "bcontent": "i miss you zeussssssssssssssssssssssssssss ????!!!?!?!",
-     "bdate": "2025-01-13"
+    "bdate": "2025-01-13"
   }
 ]
 ```
