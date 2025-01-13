@@ -13,7 +13,7 @@ Here at FRIENDSZONE, are enthusiastic storytellers, keen explorers, and lifelong
 ## Links
 - [Guide](GUIDE.md)
 - [Documentation](API_DOC.md)
-- [Resources]()
+- [Resources](project)
 
 ## Connect to the Devs
 - [Loraine Romo, BSCS Student](https://www.facebook.com/loweeyn)
