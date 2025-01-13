@@ -11,10 +11,9 @@ Here at FRIENDSZONE, are enthusiastic storytellers, keen explorers, and lifelong
 ![image](https://github.com/user-attachments/assets/e7d11232-5763-40db-a5c3-4b51d9f4218c)
 
 ## Links
-- how to use
-- local set up
+- [Guide](GUIDE.md)
 - [Documentation](API_DOC.md)
-- resources
+- [Resources]()
 
 ## Connect to the Devs
 - [Loraine Romo, BSCS Student](https://www.facebook.com/loweeyn)
