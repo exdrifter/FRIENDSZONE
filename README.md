@@ -13,7 +13,7 @@ Here at FRIENDSZONE, are enthusiastic storytellers, keen explorers, and lifelong
 ## Links
 - how to use
 - local set up
-- documentation
+- [Documentation](API_DOC.md)
 - resources
 
 ## Connect to the Devs
