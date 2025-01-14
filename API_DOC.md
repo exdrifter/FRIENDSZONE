@@ -74,7 +74,7 @@ Body:
 }
 ```
 #### 4. DELETE A Blog Post
-- URL: ```/api/blogs/{id}```
+- URL: ```/api/{id}```
 - HTTP Method: GET, POST
 - Required Parameters:
   
