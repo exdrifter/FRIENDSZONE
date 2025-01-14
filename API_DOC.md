@@ -58,7 +58,7 @@ Example Response:
 ```
 #### 3.UPDATE A Blog Post
 - URL: ```/api/edit/{id}```
-- HTTP Method: PUT
+- HTTP Method: GET, POST
 - Required Parameters:
   
 Path:
@@ -75,7 +75,7 @@ Body:
 ```
 #### 4. DELETE A Blog Post
 - URL: ```/api/blogs/{id}```
-- HTTP Method: DELETE
+- HTTP Method: GET, POST
 - Required Parameters:
   
 Path:
